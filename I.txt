@@ -1,0 +1,27 @@
+package com.java.basics;
+
+import java.util.Scanner;
+
+public class Klk {
+	public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	int i,a;
+	System.out.println("enter a");  
+	a=sc.nextInt();
+	System.out.println("all natural numbers are");
+	for(i=1;i<=a;i++)
+	{
+	System.out.println(i);
+	}
+	System.out.println("all natural odd numbers are");
+	for(i=1;i<=a;i=i+2)
+	{
+	System.out.println(i);
+	}
+	System.out.println("all natural Even numbers are");
+	for(i=-1;i>=-a;i--)
+	{
+	System.out.println(i);
+	}
+	}
+}

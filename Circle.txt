@@ -1,0 +1,19 @@
+package com.java.basics;
+
+import java.util.Scanner;
+
+public class Shiva {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		float r, a, c, p;
+		p = 3.14f;
+		System.out.println("enter radius");
+		r = sc.nextInt();
+		a = p * r * r;
+		c = 2 * p * r;
+		System.out.println("Area of circle");
+		System.out.println(a);
+		System.out.println("Circumferance of circle");
+		System.out.println(c);
+	}
+}

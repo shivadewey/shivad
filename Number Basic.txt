@@ -1,0 +1,21 @@
+package com.java.basics;
+import java.util.Scanner;
+public class number {
+    int x =10;  // Variable
+    int y =20;
+    
+    public int multiplication() {     // Java Method 
+    	return x*y;
+    }
+    	
+	public static void main(String[] args) {
+	
+		 Example example = new Example(); // Create Object using new keyword
+		 
+		 System.out.println( " X = "+ example.x);
+		 System.out.println( " Y = "+ example.y);
+		 System.out.println( "  Value : "+ example.multiplication());
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.java.basics;
+
+public class Example4 {
+	public static void main(String[] args) {
+		int x = 10;
+		float y = 100.00F;
+		char z = 'C';
+		double d= 100.9D;
+		long p = 100000000;
+		String str = " Java is Fun Language !!";
+		boolean flag = true; 
+	
+		System.out.println( " X=  "+ x);
+		System.out.println( " Y"+ y);
+		System.out.println( " Z "+ z);
+		System.out.println( " d "+ d);
+		System.out.println( " p "+ p);
+		System.out.println( " str "+ str);
+		System.out.println( " Flag : "+ flag);
+
+	}
+
+}
